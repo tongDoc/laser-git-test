@@ -167,7 +167,6 @@ $\omega=2\pi\nu$为场的角频率。
 \end{align}
 }
 
-\newpage
 {\fangsong
 7、复杂开腔的稳定性条件及共轴球面腔的稳定性条件？绘制共轴球面腔稳定性曲线，标出平行平面腔、共心腔、对称共焦腔、临界腔、稳定腔和非稳定腔的位置，并给出其满足的条件。
 }
@@ -190,8 +189,8 @@ $\omega=2\pi\nu$为场的角频率。
 \end{center}
 \caption*{图1.1}%
 \end{figure}
-\par 稳定腔：$ 0 < g_1g_2 < 1$，在双曲线上；
-\par 临界腔：$  g_1g_2 = 1$或$g_1g_2=0$，在双曲线之间；
+\par 稳定腔：$ 0 < g_1g_2 < 1$，在双曲线之间；
+\par 临界腔：$  g_1g_2 = 1$或$g_1g_2=0$，在双曲线上；
 \par 非稳腔：$g_1g_2<0$ 或 $g_1g_2>1$ ，在双曲线外
 \\
 
@@ -272,6 +271,51 @@ $v(x,y)$式在镜面 $S$ 和$S'$ 的场分布， $r=\sqrt{(x-x')^2+(y-y')^2+(z-z
 {\fangsong
 13、基膜高斯光束的场分布函数，光斑半径、等相位面曲率、共焦参数、远场发散角、q参数及其变化规律，聚焦、准直和放大。
 }
+{\kaishu \noindent
+\par 基膜高斯光束分布函数：
+\[
+	\psi_{00}\left( x,y,z \right) =\frac{c}{\omega(z)} 
+	e^{-\frac{r^2}{\omega^2(z)} }
+	e^{-i \left[ k \left( z+\frac{r^2}{2R}  \right) -\arctan \frac{z}{f}  \right] }
+\]
+\par 光斑半径：
+\[
+	\omega(z) = \omega_0 \sqrt[]{1+\left( 1+\frac{z}{f}  \right) ^2 } 
+		 =\omega_0 \sqrt[]{1+\left( \frac{\lambda z}{\pi \omega_0^2}  \right) ^2}  
+\]
+\par 等相位面曲率半径：
+\[
+	R(z)=z \left[ 1+\left( \frac{f}{z}  \right) ^2 \right] = f \left( \frac{z}{f} +\frac{f}{z}  \right) 
+\]
+\par 共焦参数：
+\[
+	f=\frac{\pi\omega_0^2}{\lambda} 
+\]
+\par 在基模高斯光束强度的$\dfrac{1}{e} $处远场发散角为：
+\[
+	\theta_0 = \lim_{z \to \infty} \frac{2\omega(z)}{z} = 2 \frac{\lambda}{\pi\omega_0} =2 \sqrt[]{\frac{\lambda}{\pi f} } 
+\]
+\par q参数：
+\[
+	 \frac{1}{q(z)} = \frac{1}{R(z)} - i \frac{\lambda}{\pi\omega^2(z)} 
+\]
+\par q参数ABCD公式：
+\[
+	q_2 = \frac{Aq_1+B}{Cq_1+D} 
+\]
+\par 聚焦：
+\[
+	\begin{cases}
+		\omega_0'\approx \dfrac{\lambda}{\pi\omega_0} F,l'=F &\text{F一定，$\omega_0'$随l变化的情况}\\
+		\omega_0'=\dfrac{\lambda}{\pi\omega_0} F &\text{$l>F$}\\
+		\omega_0' = \frac{\lambda}{\pi\omega_0} F &\text{$l'=F$}
+	\end{cases}
+\]
+\par 准直：
+\[
+	M'= \frac{\theta_0"}{\theta_0} 
+\]
+\\}
 
 {\fangsong
 14、高斯光束的自再现变换规律(证明)
